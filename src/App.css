@@ -1,0 +1,64 @@
+/* Input Field Styling */
+input {
+  width: 100%;
+  padding: 10px;              
+  font-size: 16px;            
+  border: 1px solid #ccc;      
+  border-radius: 5px;        
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+.kg-button {
+  min-width: 100px;
+  padding: 10px 20px;         
+  font-size: 16px;             
+  color: #fff;            
+  border: none;               
+  border-radius: 5px;          
+  cursor: pointer;              
+  transition: background-color 0.3s ease;
+}
+
+
+/* Row Styling */
+.kg-row {
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;                
+}
+
+/* Welcome Message Styling */
+/* .welcome {
+  font-size: 30px;
+  margin: 50px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;        
+  color: #555;                 
+} */
+
+/* No Items Message */
+.welcome {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff0000;              
+  text-align: center;
+  background-color: #ffecec;   
+  padding: 10px;
+  border-radius: 5px;          
+}
+.pwelcome{
+  margin: 50px 0;
+}
+
+.todoName {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+.todoDate {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
